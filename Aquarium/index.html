@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("water.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+        }
+        .fish1{
+            display:block;
+            
+            
+            height:110px;
+            width:110;
+            
+            position: relative;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+        .fish2{
+            display:block;
+            
+            
+            height:110px;
+            width:110;
+             
+            position: relative;
+            animation-name: move1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes move {
+            0%{top:20%;left:100%}
+            
+            100%{top:20%;left:0%}
+            
+            
+        }
+        @keyframes move1 {
+            0%{top:20%;left:0%}
+            
+            100%{top:100%;left:100%}
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1><b>Aquarium</b></h1>
+    <img class="fish1" src="yoyoyofish.png">
+    <br>
+    <img class="fish2" src="yoyofish.png">
+    <img class="fish1" src="yoyoyofish.png">
+    <img class="fish2" src="yoyofish.png">
+    <img class="fish1" src="yoyoyofish.png">
+</body>
+</html>
